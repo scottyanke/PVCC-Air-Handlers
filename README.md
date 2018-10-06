@@ -1,4 +1,4 @@
-# PVCC
+# PVCC-Air-Handlers
 
 This project is a subset of a larger monitoring system of air handlers, temperature and humidity sensors, air pressure sensors, and relays for a nursing home.  The five air handler projects all use Cypress PSoC 5LP chips, and are in the same workspace in PSoC Creator.  
 
