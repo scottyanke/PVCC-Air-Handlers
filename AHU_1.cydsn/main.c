@@ -31,6 +31,7 @@ CY_ISR(Timer_ISR){  // interrupt routine to update the Global_time value
     Global_time++;
     Timer_Int_ClearPending();
 }
+
 CY_ISR(Rx_ISR){     //ISR for 'On Byte Recd.'
 	uint16 GetB;    //16bit var for storing GetByte's return.
 	RS485_ReadRxStatus();   //Read it to clear interrupts.

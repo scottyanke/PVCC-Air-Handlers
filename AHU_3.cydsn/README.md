@@ -1,6 +1,6 @@
-AHU3
+#AHU3
 
-Air Handler monitor using PSoC 5LP
+##Air Handler monitor using PSoC 5LP
 
 This is code for PSoC Creator using a PSoC 5LP chip to remotely monitor an air handler at PVCC. This is part of a larger system of devices, all talking via RS485 to a Raspberry Pi running a Python monitoring program.
 
